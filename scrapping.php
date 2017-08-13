@@ -1,10 +1,10 @@
 <?php
 //connecting to database
 class Database  {
-        private static $dbName = 'motivation' ;
+        private static $dbName = 'database name' ;
         private static $dbHost = 'localhost' ;
-        private static $dbUsername = 'root';
-        private static $dbUserPassword = 'hey';
+        private static $dbUsername = 'username';
+        private static $dbUserPassword = 'password';
          
         private static $cont  = null;
          
