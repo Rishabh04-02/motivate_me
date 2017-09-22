@@ -26,7 +26,8 @@ foreach ($topic as $post) {
     //echo "<a href='" . $link . "'>" . $title . "</a><br>\n";
     echo " ".$link." - ".$title."\n";
 
-    Database::inserttitle($link,$title);
+    //already inserted in database
+    //Database::inserttitle($link,$title);
 }
 
 
